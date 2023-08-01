@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #130518;
+  font-family: "Merriweather", serif;
+}
+
+main {
+  background-image: url(../img/mark-header-06.bfe2dd001a3451e2b6db.png);
+}
+
+section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+section header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10px 30px;
+}
+section header figure {
+  width: 15%;
+}
+section header figure img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  width: 50%;
+}
+section header nav {
+  width: 30%;
+}
+section header nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 180px;
+}
+section header nav ul li {
+  list-style: none;
+}
+section header nav ul li a {
+  font-size: 25px;
+  height: 100%;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  text-align: center;
+  margin: 0 10px;
+}
+section header nav ul li a:hover {
+  color: #533bb5;
+}
+section header input {
+  width: 10%;
+  height: 40px;
+  top: 25px;
+  position: absolute;
+  left: 1200px;
+}
+section header i {
+  width: 15%;
+  font-size: 30px;
+  position: absolute;
+  left: 1265px;
+  margin: 20px;
+  color: #533bb5;
+}
+section header div {
+  position: absolute;
+  left: 1400px;
+  top: 35px;
+  width: 30%;
+}
+section header div a {
+  background-color: #533bb5;
+  color: white;
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+section header div a:hover {
+  background-color: white;
+  color: #533bb5;
+}
+
+#head-top {
+  height: calc(100vh - 100px);
+  justify-content: center;
+  align-items: center;
+}
+#head-top .text {
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 0 30px;
+}
+#head-top .text h1 {
+  font-size: 50px;
+  margin: 30px 10px;
+  text-shadow: 0 5px 15px #816ecd;
+}
+#head-top .text p {
+  color: #9c9aa5;
+  margin: 30px 10px;
+  text-align: center;
+}
+#head-top .text div {
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+#head-top .text div a {
+  display: flex;
+  background-color: #533bb5;
+  padding: 10px 10px;
+  margin: 0 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+#head-top .text div a:hover {
+  background-color: #fff;
+  color: #533bb5;
+}
+#head-top .text div a:first-child {
+  background-color: #6f42c1;
+}
+#head-top .img {
+  width: 50%;
+}
+#head-top .img figure:nth-of-type(1) {
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  animation-name: anime1;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime1 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-left: 30px;
+  }
+}
+#head-top .img figure:nth-of-type(2) {
+  position: absolute;
+  top: 750px;
+  left: 1400px;
+  animation-name: anime2;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime2 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -40px;
+  }
+}
+#head-top .img figure:nth-of-type(3) {
+  position: absolute;
+  top: 500px;
+  left: 1250px;
+}
+#head-top .img figure:nth-of-type(4) {
+  position: absolute;
+  top: 500px;
+  left: 990px;
+}
+#head-top .img figure:nth-of-type(5) {
+  position: absolute;
+  top: 100px;
+  left: 950px;
+  animation-name: anime5;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime5 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -40px;
+  }
+}
+#head-top .img figure:nth-of-type(6) {
+  position: absolute;
+  top: 520px;
+  left: 100px;
+  animation-name: anime6;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime6 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -40px;
+  }
+}
+#head-top .img figure:nth-of-type(7) {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  animation-name: anime7;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime7 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 20px;
+  }
+}
+#head-top .img figure:nth-of-type(8) {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  animation-name: anime8;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime8 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-left: 50px;
+  }
+}
+#head-top .img .box {
+  width: 30%;
+  background-color: #fff;
+  height: 100px;
+  position: absolute;
+  top: 700px;
+  left: 982px;
+}
+
+#box1 {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/mark-header-06.bfe2dd001a3451e2b6db.png);
+  background-size: cover;
+  padding: 100px;
+}
+#box1 div {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  padding: 5px 30px;
+  margin: 15px 15px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #270c44;
+  box: shadow 0 0 15px #2c2548;
+  transition: 1s;
+}
+#box1 div:hover {
+  background-color: #533bb5;
+  box-shadow: 0 0 15px #2c2548;
+  transform: perspective(800px) translateZ(300px);
+}
+#box1 a {
+  background-color: #270c44;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  font-size: 30px;
+  position: absolute;
+  top: 1230px;
+  left: 740px;
+  border-radius: 10px;
+  transition: 1s;
+}
+#box1 a:hover {
+  background-color: #fff;
+  color: #533bb5;
+}
+
+#art {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/mark-header-04.3681ccaba0a88d56a90c.png);
+  background-size: cover;
+}
+#art h2 {
+  font-size: 40px;
+}
+#art p {
+  font-size: 20px;
+  margin: 20px;
+}
+#art .box2 {
+  width: 100%;
+  height: auto;
+  padding: 100px;
+}
+#art .box2 div {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  padding: 5px 10px;
+  margin: 5px 35px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c2548;
+  box-shadow: 0 0 15px #533bb5;
+  border-radius: 8px;
+}
+#art .box2 div h2 {
+  font-size: 20px;
+}
+
+#top {
+  background-color: #130518;
+  width: 100%;
+  height: 409px;
+  background-image: url(../img/mark-header-04.3681ccaba0a88d56a90c.png);
+}
+#top .box3 {
+  display: flex;
+  padding: 100px;
+}
+#top .box3 div {
+  height: 270px;
+  padding: 5px 20px;
+  margin: 4px 30px;
+  background-color: #2c2548;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #533bb5;
+}
+#top .box3 div:hover {
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 0 50px #816ecd;
+}
+#top .box3 div h2 {
+  font-size: 30px;
+}
+#top .box3 div p {
+  font-size: 20px;
+  margin: 5px;
+}
+#top .box3 div a {
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+#top .box3 div a:hover {
+  background-color: #fff;
+  color: #533bb5;
+}
+#top .box3 div figure img {
+  border-radius: 100%;
+}
+
+.tx {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.tx h2 {
+  font-size: 20px;
+}
+.tx .text {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.tx .text h2 {
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0 5px 15px #816ecd;
+}
+.tx .imgg {
+  background-image: url(../img/bg-friendly.e468ecf3224e0641cd10.jpg);
+  background-size: cover;
+  width: 80%;
+  height: 300px;
+  margin: 30px;
+}
+.tx .imgg div:first-of-type {
+  width: 30%;
+}
+.tx .imgg div:first-of-type .mg {
+  width: 100%;
+}
+.tx .imgg div:first-of-type .mg figure {
+  width: 100%;
+}
+.tx .imgg div:first-of-type .mg figure img {
+  width: 100%;
+  height: 100%;
+}
+.tx .imgg div:first-of-type .mg figure:first-child {
+  justify-content: space-evenly;
+  animation-name: anime9;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-delay: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime9 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 100px;
+  }
+}
+.tx .imgg div:last-of-type {
+  width: 70%;
+  height: 50%;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.tx .imgg div:last-of-type figure img {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  transition: 1s;
+}
+.tx .imgg div:last-of-type figure img:hover {
+  transform: perspective(800px) rotatey(180deg);
+}
+.tx .imgg div:last-of-type figure figcaption {
+  padding: 10px 20px;
+}
+.tx #texxt {
+  width: 100%;
+  height: auto;
+  background-color: #130518;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px;
+}
+.tx #texxt h2 {
+  font-size: 40px;
+  text-shadow: 0 5px 15px #816ecd;
+}
+.tx #texxt p {
+  font-size: 20px;
+}
+.tx #Popular {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/mark-header-06.bfe2dd001a3451e2b6db.png);
+  background-size: cover;
+  background-color: #130518;
+}
+.tx #Popular .box4 div {
+  margin: 10px 40px;
+}
+.tx #Popular .box4 div:nth-of-type(1) {
+  position: absolute;
+  top: 3010px;
+  left: 340px;
+  transition: 1s;
+}
+.tx #Popular .box4 div:nth-of-type(1):hover {
+  left: 120px;
+}
+.tx #Popular .box4 div:nth-of-type(2) {
+  width: 200px;
+  height: 200px;
+  font-size: 15px;
+}
+.tx #Popular .box4 div:nth-of-type(2) p {
+  padding: 0 10px;
+}
+.tx #Popular .box4 div:nth-of-type(3) {
+  position: absolute;
+  top: 3010px;
+  left: 604px;
+  transition: 1s;
+}
+.tx #Popular .box4 div:nth-of-type(3):hover {
+  left: 400px;
+}
+.tx #Popular .box4 div:nth-of-type(4) {
+  width: 200px;
+  height: 200px;
+  font-size: 15px;
+}
+.tx #Popular .box4 div:nth-of-type(4) p {
+  padding: 0 10px;
+}
+.tx #Popular .box4 div:nth-of-type(5) {
+  position: absolute;
+  top: 3010px;
+  left: 885px;
+  transition: 1s;
+}
+.tx #Popular .box4 div:nth-of-type(5):hover {
+  left: 680px;
+}
+.tx #Popular .box4 div:nth-of-type(6) {
+  width: 200px;
+  height: 200px;
+  font-size: 15px;
+}
+.tx #Popular .box4 div:nth-of-type(6) p {
+  padding: 0 10px;
+}
+.tx #Popular .box4 div:nth-of-type(7) {
+  position: absolute;
+  top: 3010px;
+  left: 1170px;
+  transition: 1s;
+}
+.tx #Popular .box4 div:nth-of-type(7):hover {
+  left: 980px;
+}
+.tx #Popular .box4 div:nth-of-type(8) {
+  width: 200px;
+  height: 200px;
+  font-size: 15px;
+}
+.tx #Popular .box4 div:nth-of-type(8) p {
+  padding: 0 10px;
+}
+.tx #live {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px;
+}
+.tx #live h2 {
+  font-size: 40px;
+  text-shadow: 0 5px 15px #816ecd;
+}
+.tx #live p {
+  font-size: 20px;
+  margin: 10px;
+}
+.tx #bob {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #130518;
+}
+.tx #bob img {
+  padding: 10px 10px;
+  margin: 10px 50px;
+}
+
+#foot {
+  width: 100%;
+  height: 300px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#foot footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#foot footer div {
+  width: 50%;
+}
+#foot footer div:nth-of-type(1) {
+  border-left: 4px solid #533bb5;
+}
+#foot footer div:nth-of-type(1) h2 {
+  font-size: 50px;
+  margin: 20px 10px;
+  padding: 0px 30px;
+}
+#foot footer div:nth-of-type(1) input {
+  margin: 30px 40px;
+  width: 50%;
+  padding: 10px 30px;
+}
+#foot footer div:nth-of-type(2) {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin: 5px 50px;
+  padding: 5px 10px;
+}
+#foot footer div:nth-of-type(2) i {
+  padding: 20px 30px;
+  margin: 0 10px;
+}/*# sourceMappingURL=master.css.map */
