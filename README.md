@@ -6,7 +6,7 @@
 
 - [Demo Project](https://fatemeh-ildari.github.io/nufti/)
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css ,sass
 
 - Hooks Used : useState 
 
